@@ -13,43 +13,53 @@
     <nav>
         <div class="MS">
             <span><h4>MENU</h4></span>
-            <h4>SHOP</h4>
+            <h4 class="shop">SHOP</h4>
+           <div class="search"><button class="searchbtn"><img src="asset/images/search.png" alt=""></button></div>
         
         </div>
         <div class="ecommerce">
             <h3> ECOMMERCE</h3>
         </div>
         <div class="EC">
-            <h4>EUR</h4>
+            <h4 class="eur">EUR</h4>
             <span><h4>CART</h4></span>
         </div>
     </nav>
 
     <!-- login -->
-    <section>
-    <div>
-        <h5>ACCOUNT</h5>
-        <h2>Login</h2>
-        <p>Already have an account? log in below</p>
+    <section class="login">
+    <div class="log">
+        <h4 class="account">ACCOUNT</h4>
+        <h2 class="l">Login</h2>
+        <p class="already">Already have an account? log in below</p>
 
-        <input type="text" 
+        <!-- <input class="Email" type="text" 
         placeholder="Email"
-        id="Email"> <br>
+        id="Email"> <br> -->
 
-        <input type="password" 
+        <input type="email" 
+        name="customer[email]" 
+        id="CustomerEmail" 
+        class="Email" 
+        placeholder="Email" 
+        autocorrect="off" 
+        autocapitalize="off" 
+        autofocus=""> <br>
+
+        <input class="password" type="password" 
         placeholder="Password" 
         id="password">
 
-        <p><a href="" class="fpw">forgot your password?</a></p>
-        <input type="submit"
-        placeholder="LOGIN">
-    </div>
+        <p class="fyp" text-decoration="none;" ><a href="" >forgot your password?</a></p>
+        
+        <input class="l" type="submit"
+        value="LOGIN">
 
-    <div>
+
         <p>Need to sign up? Click below to register.</p>
 
         <input type="submit"
-        placeholder="REGISTER">
+        value="REGISTER">
     </div>
 
 </section>
