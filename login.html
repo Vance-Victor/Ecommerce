@@ -22,12 +22,12 @@
         </div>
         <div class="EC">
             <h4 class="eur">EUR</h4>
-            <span><h4>CART</h4></span>
+            <h4 class="cart">CART (0)</h4>
         </div>
     </nav>
 
     <!-- login -->
-    <section class="login">
+    <form class="login">
     <div class="log">
         <h4 class="account">ACCOUNT</h4>
         <h2 class="l">Login</h2>
@@ -50,34 +50,44 @@
         placeholder="Password" 
         id="password">
 
-        <p class="fyp" text-decoration="none;" ><a href="" >forgot your password?</a></p>
+        <p class="fyp"><a href="" >forgot your password?</a></p>
         
-        <input class="l" type="submit"
+        <input class="LI" type="submit"
         value="LOGIN">
 
 
-        <p>Need to sign up? Click below to register.</p>
+        <p class="SignUp">Need to sign up? Click below to register.</p>
 
-        <input type="submit"
+        <input class="register" type="submit"
         value="REGISTER">
     </div>
 
-</section>
+    </form>
 
 <!-- FOOTER -->
 
-<section>
-    <div>
-        <p>NEWSLETTER</p>
+<section class="footer">
+    <div class="newsletter">
+        <h4>NEWSLETTER</h4>
 
-        <h4>Sign up</h4>
+        <input class="Email2" type="email" 
+        name="customer[email]" 
+        id="CustomerEmail" 
+        placeholder="Email" 
+        value="Sign up">
     </div>
-    <div>
-        <p>CONNECT</p>
+    <div class="connect">
+        <h4>CONNECT</h4>
         <li><b><a href="">Facebook</a></b></li>
         <li><b><a href="">Twitter</a></b></li> 
         <li><b><a href="">Instagram</a></b></li>
         <li><b><a href="">Pinterest</a></b></li>
+    </div>
+    <div class="info">
+        <h4>INFO</h4>
+        <p>Shipping / Returns</p>
+        <p>T & C'S</p>
+        <p>Contact</p>
     </div>
 </section>
 </body>

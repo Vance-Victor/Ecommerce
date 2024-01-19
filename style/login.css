@@ -28,6 +28,11 @@ nav div{
     font-size: 11px;
     font-family: soleil, sans serif;
 }
+.cart{
+    color: #0025A7;
+    font-size: 11px;
+    font-family: soleil, sans serif;
+}
 .MS .shop{
     color: black;
     font-size: 11px;
@@ -98,19 +103,58 @@ nav div{
     color: #ffffff;
     margin: 0px 0px 10px;
     padding: 8px 0px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-bottom-color: #131313;
 }
 .login .password{
     color: #ffffff;
     margin: 0px 0px 10px;
     padding: 8px 0px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-bottom-color: #131313;
 }
 
-.login  .fyp{
-    list-style: none;
+.fyp{
+    color: #131313;
+    text-decoration: none;
 }
-.l{
+.LI{
     color: #131313;
     margin-top: 5%;
-    /* margin: 30px 0px 10px; */
+    margin: 30px 0px 10px;
     padding: 10px 15px;
+}
+.SignUp{
+    margin: 0px 0px 15px;
+    padding: 20px 0px 10px;
+}
+.register{
+    padding: 10px 15px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.newsletter{
+    width: 40%;
+}
+.Email2{
+    color: #ffffff;
+    margin: 0px 0px 10px;
+    padding: 8px 0px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-bottom-color: #131313;
+}
+.connect{
+    width: 20%;
+}
+.info{
+    width: 20%;
 }
